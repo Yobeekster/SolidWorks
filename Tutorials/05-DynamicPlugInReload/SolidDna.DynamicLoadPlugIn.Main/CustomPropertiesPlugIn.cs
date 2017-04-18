@@ -46,7 +46,7 @@ namespace SolidDna.DynamicLoadPlugIn
             mTaskpane.AddToTaskpane();
         }
 
-        public override void DisconnetedFromSolidWorks()
+        public override void DisconnectedFromSolidWorks()
         {
 
         }
