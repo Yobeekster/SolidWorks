@@ -31,51 +31,55 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Ninject, Version=3.2.0.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
-      <HintPath>..\..\Tutorials\03-SolidDna-CustomProperties\SolidDna.CustomProperties\packages\Ninject.3.2.2.0\lib\net45-full\Ninject.dll</HintPath>
+      <HintPath>packages\Ninject.3.2.2.0\lib\net45-full\Ninject.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
-    <Reference Include="SolidWorks.Interop.sldworks, Version=24.3.0.57, Culture=neutral, PublicKeyToken=7c4797c3e4eeac03, processorArchitecture=MSIL">
+    <Reference Include="SolidWorks.Interop.sldworks, Version=25.1.0.49, Culture=neutral, PublicKeyToken=7c4797c3e4eeac03, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <EmbedInteropTypes>False</EmbedInteropTypes>
-      <HintPath>..\..\References\2017\SolidWorks.Interop.sldworks.dll</HintPath>
+      <HintPath>..\..\References\2016\SolidWorks.Interop.sldworks.dll</HintPath>
     </Reference>
-    <Reference Include="SolidWorks.Interop.sw3dprinter">
-      <HintPath>..\..\References\2017\SolidWorks.Interop.sw3dprinter.dll</HintPath>
-      <EmbedInteropTypes>False</EmbedInteropTypes>
-    </Reference>
-    <Reference Include="SolidWorks.Interop.swcommands, Version=24.3.0.57, Culture=neutral, PublicKeyToken=0fda92720ba7919f, processorArchitecture=MSIL">
+    <Reference Include="SolidWorks.Interop.sw3dprinter, Version=25.1.0.49, Culture=neutral, PublicKeyToken=752e44715eff0bce, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <EmbedInteropTypes>False</EmbedInteropTypes>
-      <HintPath>..\..\References\2017\SolidWorks.Interop.swcommands.dll</HintPath>
+      <HintPath>..\..\References\2016\SolidWorks.Interop.sw3dprinter.dll</HintPath>
     </Reference>
-    <Reference Include="SolidWorks.Interop.swconst, Version=24.3.0.57, Culture=neutral, PublicKeyToken=19f43e188e4269d8, processorArchitecture=MSIL">
+    <Reference Include="SolidWorks.Interop.swcommands, Version=25.1.0.49, Culture=neutral, PublicKeyToken=0fda92720ba7919f, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <EmbedInteropTypes>False</EmbedInteropTypes>
-      <HintPath>..\..\References\2017\SolidWorks.Interop.swconst.dll</HintPath>
+      <HintPath>..\..\References\2016\SolidWorks.Interop.swcommands.dll</HintPath>
     </Reference>
-    <Reference Include="SolidWorks.Interop.swdimxpert">
-      <HintPath>..\..\References\2017\SolidWorks.Interop.swdimxpert.dll</HintPath>
-      <EmbedInteropTypes>False</EmbedInteropTypes>
-    </Reference>
-    <Reference Include="SolidWorks.Interop.swdocumentmgr, Version=24.3.0.57, Culture=neutral, PublicKeyToken=e52dfa2d3a1e978a, processorArchitecture=MSIL">
+    <Reference Include="SolidWorks.Interop.swconst, Version=25.1.0.49, Culture=neutral, PublicKeyToken=19f43e188e4269d8, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <EmbedInteropTypes>False</EmbedInteropTypes>
-      <HintPath>..\..\References\2017\SolidWorks.Interop.swdocumentmgr.dll</HintPath>
+      <HintPath>..\..\References\2016\SolidWorks.Interop.swconst.dll</HintPath>
     </Reference>
-    <Reference Include="SolidWorks.Interop.swmotionstudy">
-      <HintPath>..\..\References\2017\SolidWorks.Interop.swmotionstudy.dll</HintPath>
-      <EmbedInteropTypes>False</EmbedInteropTypes>
-    </Reference>
-    <Reference Include="SolidWorks.Interop.swpublished, Version=24.3.0.57, Culture=neutral, PublicKeyToken=89a97bdc5284e6d8, processorArchitecture=MSIL">
+    <Reference Include="SolidWorks.Interop.swdimxpert, Version=25.1.0.49, Culture=neutral, PublicKeyToken=5e9cf5ab4ebec26a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <EmbedInteropTypes>False</EmbedInteropTypes>
-      <HintPath>..\..\References\2017\SolidWorks.Interop.swpublished.dll</HintPath>
+      <HintPath>..\..\References\2016\SolidWorks.Interop.swdimxpert.dll</HintPath>
     </Reference>
-    <Reference Include="SolidWorks.Interop.SWRoutingLib">
-      <HintPath>..\..\References\2017\SolidWorks.Interop.SWRoutingLib.dll</HintPath>
+    <Reference Include="SolidWorks.Interop.swdocumentmgr, Version=25.1.0.49, Culture=neutral, PublicKeyToken=e52dfa2d3a1e978a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <EmbedInteropTypes>False</EmbedInteropTypes>
+      <HintPath>..\..\References\2016\SolidWorks.Interop.swdocumentmgr.dll</HintPath>
+    </Reference>
+    <Reference Include="SolidWorks.Interop.swmotionstudy, Version=25.1.0.49, Culture=neutral, PublicKeyToken=034d56e16c5ef330, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <HintPath>..\..\References\2016\SolidWorks.Interop.swmotionstudy.dll</HintPath>
+    </Reference>
+    <Reference Include="SolidWorks.Interop.swpublished, Version=25.1.0.49, Culture=neutral, PublicKeyToken=89a97bdc5284e6d8, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <HintPath>..\..\References\2016\SolidWorks.Interop.swpublished.dll</HintPath>
+    </Reference>
+    <Reference Include="SolidWorks.Interop.SWRoutingLib, Version=25.1.0.49, Culture=neutral, PublicKeyToken=1439c4c051169f7b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <HintPath>..\..\References\2016\SolidWorks.Interop.SWRoutingLib.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -297,12 +301,11 @@
     <Compile Include="Threading\ThreadHelpers.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
     <EmbeddedResource Include="Localization\Strings\Strings%28en-US%29.xml" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
