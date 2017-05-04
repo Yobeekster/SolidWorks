@@ -83,7 +83,7 @@ namespace SolidWorksCommandAddin3
                 // Tell user success
                 Dna.Application.ShowMessageBox("Successfully saved model as STEP");
         }
-
+      
         /// <summary>
         /// Exports the currently active part as a PDF
         /// </summary>
